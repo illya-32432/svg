@@ -1,0 +1,103 @@
+.guchuk {
+  animation: bg 10s infinite;
+  animation-delay: 2s;
+}
+
+.border{
+  width: 200px;
+  padding: 3px;
+  padding-bottom: 0;
+  border: 3px dashed #ccc;
+}
+
+@keyframes bg{
+  0%{
+      background: #fff;
+  }
+
+  50%{
+      background: #000;
+  }
+
+  100%{
+      background: #fff;
+  }
+}
+
+.sun{
+  fill: #fcad3a;
+  animation: sun 10s infinite;
+  animation-delay: 2s;
+}
+
+.moon{
+  fill: #fff
+}
+
+@keyframes sun{
+  0% {
+      fill: #fcad3a;
+      transform: translate(0, 0);
+  }
+
+  25%{
+      fill: #fff;
+      transform: translate(89px, -90px);
+  }
+
+
+  100% {
+      transform: translate(0, 0);
+  }
+}
+
+.gg {
+  fill: #fff;
+  animation: gg 10s infinite;
+  animation-delay: 2s;
+}
+
+@keyframes gg{
+  0% {
+    fill: #fff;
+  }
+
+  50%{
+      fill: #000;
+  }
+
+  100% {
+      fill: #fff;
+  }
+}
+
+.negr{
+  fill: #fff;
+}
+
+.i{
+  opacity: .7;
+}
+
+.be{
+  opacity: .5;
+}
+
+.a{
+  opacity: .9;
+}
+
+.y{
+  opacity: .2;
+}
+
+.wrpr{
+  border-radius: 50%;
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  transform: translate(164px, 32px);
+  animation: bg 20s infinite;
+  animation-delay: 2s;
+  z-index: 3;
+}
